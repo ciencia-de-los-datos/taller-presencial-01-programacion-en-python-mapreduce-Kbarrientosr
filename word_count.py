@@ -121,11 +121,11 @@ def create_output_directory(output_directory):
     os.makedirs(output_directory)
 
 
-sequence = load_input("input")
-sequence = mapper (sequence)
-sequence = shuffle_and_sort (sequence)
-sequence = reducer (sequence)
-create_output_directory("output")
+# sequence = load_input("input")
+# sequence = mapper (sequence)
+# sequence = shuffle_and_sort (sequence)
+# sequence = reducer (sequence)
+# create_output_directory("output")
 
 #
 # Escriba la función save_output, la cual almacena en un archivo de texto llamado
