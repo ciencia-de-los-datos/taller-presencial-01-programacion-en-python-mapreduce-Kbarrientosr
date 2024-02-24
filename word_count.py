@@ -13,6 +13,7 @@
 #     ('text2.txt'. 'hypotheses.')
 #   ]
 #
+
 import glob
 import fileinput
 
@@ -28,9 +29,6 @@ def load_input(input_directory):
 
 #filenames = load_input ("input")
 #print (filenames)
-
-
-
 
 #
 # Escriba una función llamada maper que recibe una lista de tuplas de la
