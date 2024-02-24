@@ -138,7 +138,7 @@ def create_output_directory(output_directory):
 def save_output(output_directory, sequence):
     with open(output_directory + "/part-00000", "w") as file:
         for key, value in sequence:
-            file.write(f"{key}\t{value}\n*")
+            file.write(f"{key}\t{value}\n")
 
 
 # sequence = load_input("input")
@@ -185,4 +185,5 @@ if __name__ == "__main__":
         "input",
         "output",
     )
+
 
