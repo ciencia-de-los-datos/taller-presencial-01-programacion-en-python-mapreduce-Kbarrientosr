@@ -46,6 +46,8 @@ def mapper(sequence):
     for _, text in sequence: #genero el texto
         words = text.split() #recorre las palabras en una lista
         for word in words:
+            word=word.replace(",","")
+            word=word.lower()
             new_sequence.append((word, 1))
     return new_sequence
 
